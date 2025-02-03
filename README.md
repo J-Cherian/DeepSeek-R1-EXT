@@ -52,6 +52,20 @@ npm run build
 npm install ollama
 ```
 
+### 🚨 VERY IMPORTANT: Change the Model 
+
+It is **CRUCIAL** to update the model if you need a different version. Failure to do so may lead to unexpected results.
+
+To change the model, navigate to `src/extensions.ts` and modify the following:
+```sh
+model: 'deepseek-r1:1.5b', // Change to whatever model you have
+```
+
+If you're unsure which models are available, run the following command to list all installed models:
+```sh
+ollama list
+```
+
 ### 🖥 Open in VS Code
 1. Launch **VS Code** and open the project directory.
 2. Open the **Command Palette** (`Ctrl + Shift + P` or `Cmd + Shift + P` on macOS) and select **Start Debugging**.

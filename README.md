@@ -14,45 +14,45 @@ The **DeepSeek R1 VS Code Extension** is an AI-powered chatbox that allows users
 
 ## Requirements
 
-### 1️⃣ Install Node.js
+### Install Node.js
 Ensure you have **Node.js (v18 or higher)** installed. Download it from the [Node.js official site](https://nodejs.org/).
 
-### 2️⃣ Install Ollama
+### Install Ollama
 Download **Ollama** from the [Ollama official website](https://ollama.com/download).
 
-### 3️⃣ Install DeepSeek R1 Model
+### Install DeepSeek R1 Model
 Get the command from the [Ollama library](https://ollama.com/library/deepseek-r1).
 
 ---
 
 ## Installation & Setup
 
-### 📥 Clone the Repository
+### Clone the Repository
 ```sh
 git clone https://github.com/J-Cherian/DeepSeek-R1-EXT.git
 ```
 
-### 📂 Navigate to the Project Directory
+### Navigate to the Project Directory
 ```sh
 cd DeepSeek-R1-EXT
 ```
 
-### 📦 Install Dependencies
+### Install Dependencies
 ```sh
 npm install
 ```
 
-### 🔧 Build the Extension
+### Build the Extension
 ```sh
 npm run build
 ```
 
-### 🛠 Install Ollama via npm
+### Install Ollama via npm
 ```sh
 npm install ollama
 ```
 
-### 🚨 VERY IMPORTANT: Change the Model 
+### VERY IMPORTANT: Change the Model 
 
 It is **CRUCIAL** to update the model if you need a different version. Failure to do so may lead to unexpected results.
 
@@ -66,7 +66,7 @@ If you're unsure which models are available, run the following command to list a
 ollama list
 ```
 
-### 🖥 Open in VS Code
+### Open in VS Code
 1. Launch **VS Code** and open the project directory.
 2. Open the **Command Palette** (`Ctrl + Shift + P` or `Cmd + Shift + P` on macOS) and select **Start Debugging**.
 3. A new **VS Code window** will open with the extension installed.
@@ -77,18 +77,18 @@ ollama list
 
 ---
 
-## ⚙️ Extension Settings
+## Extension Settings
 This extension currently does **not** provide configurable settings, but future updates may introduce customizable options.
 
 ---
 
-## ⚠️ Known Issues
+## Known Issues
 - Large inputs **may slow down response times**.
 - If you experience unexpected behavior, ensure **all dependencies are properly installed**.
 
 ---
 
-## 🤝 Contributions
+## Contributions
 
 There will be many changes coming soon! Stay tuned for updates.
 
@@ -109,14 +109,14 @@ We welcome contributions! To contribute:
 
 ---
 
-## 🤝 Support
+## Support
 If you encounter any issues, please **open a GitHub issue** in the repository.
 
 ---
 
-## 📚 More Information
+## More Information
 - [🔗 Visual Studio Code Extension API](https://code.visualstudio.com/api)
 - [🔗 Ollama Documentation](https://ollama.com/docs)
 - [🔗 DeepSeek R1 Model](https://ollama.com/library/deepseek-r1)
 
-🚀 **Enjoy using DeepSeek R1 in VS Code!** 🚀
+**Enjoy using DeepSeek R1 in VS Code!** 

@@ -1,71 +1,108 @@
-# deepseek-ext README
+# DeepSeek R1 VS Code Extension
 
-This is the README for your extension "deepseek-ext". After writing up a brief description, we recommend including the following sections.
+## Overview
+
+The **DeepSeek R1 VS Code Extension** is an AI-powered chatbox that allows users to interact with the **DeepSeek-R1** model directly within VS Code.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+- **AI-powered chat interface** integrated into VS Code.
+- **Streaming responses** from the **DeepSeek R1:1.5b** model.
+- **Real-time message updates**.
 
 ---
 
-## Following extension guidelines
+## Requirements
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+### 1️⃣ Install Node.js
+Ensure you have **Node.js (v18 or higher)** installed. Download it from the [Node.js official site](https://nodejs.org/).
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+### 2️⃣ Install Ollama
+Download **Ollama** from the [Ollama official website](https://ollama.com/download).
 
-## Working with Markdown
+### 3️⃣ Install DeepSeek R1 Model
+Get the command from the [Ollama library](https://ollama.com/library/deepseek-r1).
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+---
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## Installation & Setup
 
-## For more information
+### 📥 Clone the Repository
+```sh
+git clone https://github.com/J-Cherian/DeepSeek-R1-EXT.git
+```
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+### 📂 Navigate to the Project Directory
+```sh
+cd DeepSeek-R1-EXT
+```
 
-**Enjoy!**
+### 📦 Install Dependencies
+```sh
+npm install
+```
+
+### 🔧 Build the Extension
+```sh
+npm run build
+```
+
+### 🛠 Install Ollama via npm
+```sh
+npm install ollama
+```
+
+### 🖥 Open in VS Code
+1. Launch **VS Code** and open the project directory.
+2. Open the **Command Palette** (`Ctrl + Shift + P` or `Cmd + Shift + P` on macOS) and select **Start Debugging**.
+3. A new **VS Code window** will open with the extension installed.
+4. In the new VS Code window, open the **Command Palette** again and select **Chat with DeepSeek**.
+5. 🎉 You should now see the extension in action!
+
+![DeepSeek R1 Extension](https://github.com/user-attachments/assets/4be65577-8b6c-4a8a-be5e-777ca7595cf7)
+
+---
+
+## ⚙️ Extension Settings
+This extension currently does **not** provide configurable settings, but future updates may introduce customizable options.
+
+---
+
+## ⚠️ Known Issues
+- Large inputs **may slow down response times**.
+- If you experience unexpected behavior, ensure **all dependencies are properly installed**.
+
+---
+
+## 🤝 Contributions
+
+There will be many changes coming soon! Stay tuned for updates.
+
+We welcome contributions! To contribute:
+
+1. **Fork** the repository.
+2. **Create a new branch** for your feature or fix:
+   ```sh
+   git checkout -b feature-branch
+   ```
+3. **Make your changes** and commit them with a descriptive message.
+4. **Push the changes** to your fork:
+   ```sh
+   git push origin feature-branch
+   ```
+5. **Open a Pull Request (PR)** in the main repository.
+6. I will review and approve changes as needed!
+
+---
+
+## 🤝 Support
+If you encounter any issues, please **open a GitHub issue** in the repository.
+
+---
+
+## 📚 More Information
+- [🔗 Visual Studio Code Extension API](https://code.visualstudio.com/api)
+- [🔗 Ollama Documentation](https://ollama.com/docs)
+- [🔗 DeepSeek R1 Model](https://ollama.com/library/deepseek-r1)
+
+🚀 **Enjoy using DeepSeek R1 in VS Code!** 🚀

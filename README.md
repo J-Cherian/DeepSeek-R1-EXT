@@ -7,7 +7,7 @@ The **DeepSeek R1 VS Code Extension** is an AI-powered chatbox that allows users
 ## Features
 
 - **AI-powered chat interface** integrated into VS Code.
-- **Streaming responses** from the **DeepSeek R1:1.5b** model.
+- **Streaming responses** from the **DeepSeek R1** model.
 - **Real-time message updates**.
 
 ---
@@ -54,7 +54,7 @@ npm install ollama
 
 ### VERY IMPORTANT: Change the Model 
 
-It is **CRUCIAL** to update the model if you need a different version. Failure to do so may lead to unexpected results.
+It is **CRUCIAL** to update the model if you need a different version. 
 
 To change the model, navigate to `src/extensions.ts` and modify the following:
 ```sh
